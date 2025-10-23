@@ -29,6 +29,18 @@ tv 1200 para cima
   div#form >p {
     font-size: 1.2em;
   }
+  form > div > input[type=submit]{
+    margin: 10px 0px;
+    height: 50px;
+  }
+  form > div > input[type=reset]{
+    margin: 10px 0px;
+    height: 50px;
+  }
+  form > div > a.botao{
+    height: 60px;
+    margin: 10px 0px;
+  }
 }
 @media screen and (min-width:992px){
     body{
@@ -54,5 +66,17 @@ tv 1200 para cima
   }
   div#form > p{
     font-size: 1.5em;
+  }
+    form > div > input[type=submit]{
+    margin: 10px 0px;
+    height: 60px;
+  }
+  form > div > input[type=reset]{
+    margin: 10px 0px;
+    height: 60px;
+  }
+  form > div > a.botao{
+    height: 60px;
+    margin: 10px 0px;
   }
 }
