@@ -7,48 +7,52 @@ telas pc 992 ate 1200
 tv 1200 para cima
 */ 
 @media screen and (min-width:768px) and (max-width:992px){
-    body{
-        background-image: linear-gradient(to top,#49a09d,#5f2c82);
-    }
-    section#login{
-      width: 80vw;
-    }
-    section#login > div#imagem{
-         float: left;
-         width: 30%;
-         height: 100%;
-
-    }
-    section#login > div#form{
-        float: right;
-        width: 65%;
-    }
-
+  body{
+    background-image: linear-gradient(to top,#5f2c82,#49a09d);
+  }
+  section#login{
+    width: 90vw;
+  }
+  section#login > div#imagem {
+      float: left;
+      width: 30%;
+      height: 100%;
+  }
+  section#login > div#form{
+    float: right;
+    width: 65%;
+   
+  }
+  div#form > h1{
+    font-size: 1.5em;
+  }
+  div#form >p {
+    font-size: 1.2em;
+  }
 }
-
-
-
-@media screen and (min-width:993px){
+@media screen and (min-width:992px){
     body{
-        background-image: linear-gradient(to top,#49a09d,#5f2c82);
-    }
-      section#login{
-        width:950px;
-      }
-      section#login > div#imagem{
-        float: right;
-        width: 50%;
-        height: 100%;
-      }
-      section#login > div#form{
-        float: left;
-        width: 45%;
-        padding: 10px;
-      }
-      div#form > h1{
-        font-size: 2em;
-      }
-      div#form > p {
-        font-size: 1.2em;
-      }
+    background-image: linear-gradient(to top,#5f2c82,#49a09d);
+  }
+  section#login{
+    width: 950px;
+  }
+  section#login > div#imagem{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+  section#login > div#form{
+    float: left;
+    width: 45%;
+    height: 100%;
+    text-align: justify;
+    
+  }
+  div#form > h1{
+    font-size: 2em;
+  }
+  div#form > p{
+    font-size: 1.5em;
+  }
 }
