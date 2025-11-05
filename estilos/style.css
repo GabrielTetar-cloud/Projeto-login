@@ -60,7 +60,7 @@ form > div.campo{
     margin: 5px 0px;
     height: 34px;
 }
-div.campo  >label{
+div.campo > label{
     display: none;
 }
 div.campo > span{
